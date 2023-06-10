@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+
+body {
+    background: #222;
+}
+.card {
+    max-width: 400px;
+    width: 90%;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.card__search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.card__search-box input {
+    outline: 0;
+    border: 0;
+    margin: 7px 16px 0 0;
+    height: 45px;
+    flex: 1;
+    padding: 15px;
+    border-radius: 50px;
+    letter-spacing: 0.2px;
+}
+
+.card__search-box button {
+    border: 0;
+    outline: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    display: flex;
+}
+
+.card__search-box img {
+    object-fit: contain;
+    width: 16px;
+}
+
+.card__weather-img {
+    margin: 15px;
+}
+
+.card__weather-img img {
+    height: 150px;
+}
+
+.card__temp {
+    font-size: 65px;
+    margin: 10px;
+}
+
+.card__city {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card__wind-humidity{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 55px 0 25px ; 
+}
+
+
+.card__wind-humidity img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.weather {
+    display: none;
+}
